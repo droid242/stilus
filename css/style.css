@@ -32,6 +32,7 @@ h3 {
    border: solid 1px #000000;
    padding: 15px;
    box-shadow: 3px 3px 10px #adff2f;
+   max-width: 75%;
 }
 
 .qwe {
@@ -48,6 +49,13 @@ h3 {
 }
 
 img {
-   width: 14.4%;
+   width: 14%;
    margin: 1%;
+}
+
+#img1 {
+   // display: none;
+   position: static;
+   top: 30px;
+   left: 50px;
 }

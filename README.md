@@ -40,3 +40,32 @@ box-shadow: none|h-shadow v-shadow blur spread color|inset|initial|inherit;
 %: a méretet a befogadó elem méretének százalékában adja meg.
 em: a betűméret, 1 esetén megegyezik, de például az 1.5 másfélszeres.
 rem: root em, nem a szülő elem em-jét nézi, hanem a <html> elemét.
+
+***
+
+Display vs. visibility
+display
+A display tulajdonság az elem megjelenítését befolyásolja. Azt mondja meg, hogy a böngészőnek figyelembe kell-e vennie az elemet az oldal megjelenítésekor, és ha igen, akkor hogyan.
+
+Használata: display: inline|block|flex|inline-block|none;
+block: nincs mellette más elem
+inline: mindig egysorban
+none: nem jelenik meg
+
+A none érték azt írja elő, hogy nem kell megjeleníteni az elemet. A megjelenített oldalon a böngésző nem foglal helyet az elemnek, ezért a felhasználó nem láthatónak érzékeli.
+
+visibility
+Ezzel szemben a visibility csak a láthatóságot módosítja. Tehát ha elrejtjük vele az elemet, akkor a helyfoglalás megmarad.
+
+Használata: visibility: visible|hidden|collapse|initial|inherit;
+hidden: elrejtve
+
+***
+
+Position - helyezkedjünk kicsit!
+Azt adhatjuk meg vele, hogyan legyen kalkulálva az elem pozíciója.
+
+position: static; ez az alapértelmezett, a helyzet a többi elemtől függ.
+position: relative; a helyzet a saját normál pozíciótól függ.
+position: fixed; a böngészőablakhoz képest helyezkedik el.
+position: absolute; a helyzet az első nem static elemtől függ.
