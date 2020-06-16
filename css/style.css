@@ -5,12 +5,13 @@ h1 {
    font-family: 'Roboto', sans-serif;
    font-size: 46pt;
    text-align: center;
-   font-weight: 500;
+   font-weight: 600;
 }
 
 h3 {
    font-family: 'Roboto', sans-serif;
    font-size: 24pt;
+   font-weight: 500;
 }
 
 #bio-header {
@@ -28,6 +29,9 @@ h3 {
    text-align: justify;
    font-weight: 500;
    font-style: italic;
+   border: solid 1px #000000;
+   padding: 15px;
+   box-shadow: 3px 3px 10px #adff2f;
 }
 
 .qwe {
@@ -44,5 +48,6 @@ h3 {
 }
 
 img {
-   width: 150px;
+   width: 14.4%;
+   margin: 1%;
 }
