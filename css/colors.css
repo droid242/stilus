@@ -2,7 +2,7 @@
    display: inline-block;
    width: 100px;
    height: 100px;
-   background-color:rgba(25, 44, 210, 0.6);
+   background-color:rgba(25, 44, 210, 0.3);
 }
 
 #color-div2 {
@@ -10,4 +10,12 @@
    width: 100px;
    height: 100px;
    background-color:#79178d;
+}
+
+
+html {
+   background-color: #d3d3ad;
+   background-image: url("../img/bg.webp");
+   background-position: left top;
+   background-repeat: repeat-y;
 }
