@@ -2,5 +2,12 @@
    display: inline-block;
    width: 100px;
    height: 100px;
-   background-color:rgb(25, 45, 210);
+   background-color:rgba(25, 44, 210, 0.6);
+}
+
+#color-div2 {
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   background-color:#79178d;
 }
